@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bitkompagniet/whiff.git"
+    "url": "git+ssh://git@github.com/bitkompagniet/rumor.git"
   },
   "author": "Kristian Videmark Parkov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bitkompagniet/whiff/issues"
+    "url": "https://github.com/bitkompagniet/rumor/issues"
   },
-  "homepage": "https://github.com/bitkompagniet/whiff#readme",
+  "homepage": "https://github.com/bitkompagniet/rumor#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "moment": "^2.15.2"
