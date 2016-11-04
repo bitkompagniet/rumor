@@ -2,6 +2,8 @@ const rumor = require('../index');
 
 let count = 0;
 
+rumor('This is called via the default function.');
+
 ['trace', 'debug', 'info', 'warn', 'error'].forEach((level, index) => {
 	const offset = index + 1;
 

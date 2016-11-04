@@ -32,6 +32,7 @@ npm install --save rumor
 ```javascript
 const rumor = require('rumor');
 
+rumor('This will default to `debug` level (default shown level is `info`).');
 rumor.debug('This is a debugging message');
 
 // debug  mymodule 2016-11-04 12:29:06  This is a debugging message
