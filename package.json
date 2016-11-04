@@ -19,6 +19,7 @@
   "homepage": "https://github.com/bitkompagniet/rumor#readme",
   "dependencies": {
     "chalk": "^1.1.3",
+    "lodash": "^4.16.6",
     "moment": "^2.15.2"
   },
   "devDependencies": {

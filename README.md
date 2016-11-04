@@ -40,3 +40,16 @@ rumor.info('This is an info message', 'my namespace');
 
 // info   my namespace 2016-11-04 12:29:06  This is an info message
 ```
+
+rumor will expand objects and arrays using util.inspect, to an arbitrary
+depth.
+
+All of the methods return the message object, which can be used to log
+an object inside a promise chain and continue:
+
+```javascript
+return Promise.resolve({ name: 'John Smith', born: 1980 })
+	.then(rumor.trace)
+	.then(person => /* do something */)
+	.catch(rumor.error);
+```
