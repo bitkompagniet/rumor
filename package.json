@@ -1,6 +1,6 @@
 {
   "name": "rumor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A logger built on debug",
   "main": "index.js",
   "scripts": {
