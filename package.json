@@ -1,7 +1,7 @@
 {
   "name": "rumor",
   "version": "0.1.1",
-  "description": "A logger built on debug",
+  "description": "A logger",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
