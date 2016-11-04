@@ -1,0 +1,31 @@
+{
+  "name": "rumor",
+  "version": "0.1.0",
+  "description": "A logger built on debug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bitkompagniet/whiff.git"
+  },
+  "author": "Kristian Videmark Parkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitkompagniet/whiff/issues"
+  },
+  "homepage": "https://github.com/bitkompagniet/whiff#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "moment": "^2.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.0",
+    "mocha": "^3.1.2"
+  }
+}
