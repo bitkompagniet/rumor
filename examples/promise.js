@@ -1,4 +1,4 @@
-const rumor = require('../index');
+const rumor = require('../index')('promises');
 
 Promise.resolve({ x: 3, name: 'hest', deep: { obj: { with: { a: { lot: { of: 'keys' } } } } } })
 	.then(rumor.info)

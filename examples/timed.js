@@ -1,4 +1,4 @@
-const rumor = require('../index');
+const rumor = require('../index')('timed example');
 
 let count = 0;
 

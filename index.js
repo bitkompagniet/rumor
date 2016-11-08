@@ -1,3 +1,3 @@
-const rumor = require('./lib/rumor')();
+const rumor = require('./lib/rumor');
 
 module.exports = rumor;

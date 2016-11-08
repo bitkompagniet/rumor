@@ -19,7 +19,7 @@ warn   rumor 2016-11-04 12:29:06  warn
 error  rumor 2016-11-04 12:29:06  error
 ```
 
-The namespace will default to the current package name, but can be overridden.
+The namespace will default to the current package name, if nothing is given.
 
 ## Install
 
@@ -30,7 +30,7 @@ npm install --save rumor
 ## Usage
 
 ```javascript
-const rumor = require('rumor');
+const rumor = require('rumor')('mymodule');
 
 rumor('This will default to `debug` level (default shown level is `info`).');
 rumor.debug('This is a debugging message');
